@@ -2,7 +2,7 @@
     "name":"coopteh/php-ci",
     "autoload":{
       "psr-4":{
-        "Project\\":"src/"
+        "":"src/"
       }
     },
     "autoload-dev":{
