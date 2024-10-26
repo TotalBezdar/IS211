@@ -3,10 +3,10 @@ name: PHP_CI_BURGERKRIG
 on:
   push:
     branches:
-      - auto-test-6
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
