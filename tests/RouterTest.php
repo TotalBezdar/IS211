@@ -8,9 +8,7 @@ class RouterTest extends TestCase {
     public function test_router() {
         $router = new Router();
         $html = $router->route( "http://localhost/orders" );
-        $pos= mb_strpos($html, "Создание заказаароартоаро");
-        if((!($pos>=0)) and ($pos==false))
-            $pos= -1;
+        $pos= mb_strpos($html, "Создание закаа");
         $this->assertNotFalse( $pos>=0 );
     }
 }
